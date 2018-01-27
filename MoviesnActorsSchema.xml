@@ -1,11 +1,25 @@
-<xs:element name="note">
+<xs:element name="movie">
 
 <xs:complexType>
   <xs:sequence>
-    <xs:element name="to" type="xs:string"/>
-    <xs:element name="from" type="xs:string"/>
-    <xs:element name="heading" type="xs:string"/>
-    <xs:element name="body" type="xs:string"/>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="year">
+       <xs:restriction base= type="xs:integer">
+         <xs:totalDigits value=4>
+       </xs:restriction>
+    </xs:element>
+    <xs:element name="genre" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
+
+</xs:element>
+  
+<xs:element name="actor">
+
+<xs:complexType>
+  <xs:sequence>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="dob" type="xs:date"/>
   </xs:sequence>
 </xs:complexType>
 
