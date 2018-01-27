@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <title>Avatar</title>
+  <year>2009</year>
+  <genre>Sci-Fi</genre>
+</movie>
+<actor>
+  <name>Stephen Lang</name>
+  <dob>July 11, 1952</dob>
+</movie>
